@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="cara.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cara.jpg" />
+  </ItemGroup>
+
 </Project>

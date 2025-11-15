@@ -5,8 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JogoMemoria"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="900">
     <Grid>
+        <Rectangle HorizontalAlignment="Center"  Height="564"  Stroke="Black" VerticalAlignment="Center"  Width="880" RadiusX="20" RadiusY="20" Fill="#FF2E3648" />
+
+
+
+
+
+
+
+
+        <Button x:Name="bt_1" Content="Button" HorizontalAlignment="Left" Height="120" Margin="50,37,0,0" VerticalAlignment="Top" Width="80" Click="bt_1_Click"/>
+        <Button x:Name="bt_2" Content="Button" HorizontalAlignment="Left" Height="120" Margin="222,37,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_3" Content="Button" HorizontalAlignment="Left" Height="120" Margin="402,37,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_4" Content="Button" HorizontalAlignment="Left" Height="120" Margin="582,37,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_5" Content="Button" HorizontalAlignment="Left" Height="120" Margin="50,227,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_6" Content="Button" HorizontalAlignment="Left" Height="120" Margin="222,227,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_7" Content="Button" HorizontalAlignment="Left" Height="120" Margin="402,227,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_8" Content="Button" HorizontalAlignment="Left" Height="120" Margin="582,227,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_9" Content="Button" HorizontalAlignment="Left" Height="120" Margin="50,407,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_10" Content="Button" HorizontalAlignment="Left" Height="120" Margin="222,407,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_11" Content="Button" HorizontalAlignment="Left" Height="120" Margin="402,407,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="bt_12" Content="Button" HorizontalAlignment="Left" Height="120" Margin="582,407,0,0" VerticalAlignment="Top" Width="80"/>
+        <Rectangle HorizontalAlignment="Left" Height="188" Margin="710,49,0,0" Stroke="Black" VerticalAlignment="Top" Width="162">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/cara.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="       /\&#xD;&#xA;        |&#xD;&#xA;&#xD;&#xA;Voce aqui!" HorizontalAlignment="Left" Height="83" Margin="755,0,0,0" VerticalAlignment="Center" Width="78" FontSize="14" Background="{x:Null}" Foreground="White"/>
+        <Label Content="Pontuação" HorizontalAlignment="Left" Height="71" Margin="710,433,0,0" VerticalAlignment="Top" Width="162"/>
 
     </Grid>
 </Window>
