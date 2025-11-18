@@ -10,10 +10,14 @@
 
   <ItemGroup>
     <None Remove="cara.jpg" />
+    <None Remove="Imgs\bozo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="cara.jpg" />
+    <Resource Include="Imgs\bozo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
