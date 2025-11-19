@@ -35,6 +35,8 @@
         </Rectangle>
         <Label Content="       /\&#xD;&#xA;        |&#xD;&#xA;&#xD;&#xA;Voce aqui!" HorizontalAlignment="Left" Height="83" Margin="755,0,0,0" VerticalAlignment="Center" Width="78" FontSize="14" Background="{x:Null}" Foreground="White"/>
         <Label Content="Pontuação" HorizontalAlignment="Left" Height="71" Margin="710,433,0,0" VerticalAlignment="Top" Width="162"/>
+        <Rectangle x:Name="rt_1" HorizontalAlignment="Left" Height="120" Margin="50,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_1"/>
+        <Rectangle x:Name="rt_2" HorizontalAlignment="Left" Height="120" Margin="222,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_2"/>
 
     </Grid>
 </Window>

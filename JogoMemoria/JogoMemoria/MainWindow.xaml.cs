@@ -69,16 +69,77 @@ namespace JogoMemoria
             }
 
         }
+        private void verificar(string carta)
+        {
+            Escolhas.Add(carta);
+            if (Escolhas.Count == 2)
+            {
+                if (Escolhas[0] == Escolhas[1])
+                {
+                    MessageBox.Show("ACERTOU!");
+                }
+                else
+                {
+                    //bt_1.Visibility = Visibility.Collapsed;
 
+                }
+
+
+                Escolhas.Clear();
+
+
+            }
+
+        }
         private void bt_1_Click(object sender, RoutedEventArgs e)
         {
-            
+            var img = new BitmapImage(imagens[0].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+
+
         }
 
         private void bt_2_Click(object sender, RoutedEventArgs e)
         {
-
+            var img = new BitmapImage(imagens[1].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
         }
+
+        private void r_1(object sender, MouseButtonEventArgs e)
+        {
+            // Esconder o retângulo que recebeu o clique
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                    
+            }
+
+                // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[0].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+
+        
+
+        private void r_2(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[1].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+
 
 
 
