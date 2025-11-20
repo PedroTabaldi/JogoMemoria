@@ -37,6 +37,16 @@
         <Label Content="Pontuação" HorizontalAlignment="Left" Height="71" Margin="710,433,0,0" VerticalAlignment="Top" Width="162"/>
         <Rectangle x:Name="rt_1" HorizontalAlignment="Left" Height="120" Margin="50,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_1"/>
         <Rectangle x:Name="rt_2" HorizontalAlignment="Left" Height="120" Margin="222,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_2"/>
+        <Rectangle x:Name="rt_3" HorizontalAlignment="Left" Height="120" Margin="402,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" MouseDown="r_3" Fill="White"/>
+        <Rectangle x:Name="rt_4" HorizontalAlignment="Left" Height="120" Margin="582,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_4"/>
+        <Rectangle x:Name="rt_5" HorizontalAlignment="Left" Height="120" Margin="50,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_5"/>
+        <Rectangle x:Name="rt_6" HorizontalAlignment="Left" Height="120" Margin="222,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_6"/>
+        <Rectangle x:Name="rt_7" HorizontalAlignment="Left" Height="120" Margin="402,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_7"/>
+        <Rectangle x:Name="rt_8" HorizontalAlignment="Left" Height="120" Margin="582,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_8"/>
+        <Rectangle x:Name="rt_9" HorizontalAlignment="Left" Height="120" Margin="50,407,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_9"/>
+        <Rectangle x:Name="rt_10" HorizontalAlignment="Left" Height="120" Margin="222,407,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_10"/>
+        <Rectangle x:Name="rt_11" HorizontalAlignment="Left" Height="120" Margin="402,407,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseDown="r_11"/>
+        <Rectangle x:Name="rt_12" HorizontalAlignment="Left" Height="120" Margin="582,407,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" MouseDown="r_12" Fill="White"/>
 
     </Grid>
 </Window>

@@ -66,6 +66,7 @@ namespace JogoMemoria
                 var img = new BitmapImage(imagens[i].UriSource);
                 btns[i].Content = new Image { Source = img };
 
+
             }
 
         }
@@ -81,6 +82,8 @@ namespace JogoMemoria
                 else
                 {
                     //bt_1.Visibility = Visibility.Collapsed;
+                    MessageBox.Show("ERROU!");
+                    Visibility = Visibility.Hidden;
 
                 }
 
@@ -116,7 +119,8 @@ namespace JogoMemoria
             }
             else
             {
-                    
+
+                
             }
 
                 // Mantém a lógica existente de revelar/verificar a carta
@@ -139,6 +143,127 @@ namespace JogoMemoria
             var carta = img.ToString().Split('/');
             verificar(carta.Last());
         }
+
+        private void r_3(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[2].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+
+        private void r_4(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[3].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+
+        private void r_5(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[4].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+
+        private void r_6(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[5].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+
+        private void r_7(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[6].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+        private void r_8(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[7].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+        private void r_9(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[8].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+        private void r_10(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[9].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+        private void r_11(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[10].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+        private void r_12(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is System.Windows.FrameworkElement fe)
+            {
+                fe.Visibility = Visibility.Hidden;
+            }
+            // Mantém a lógica existente de revelar/verificar a carta
+            var img = new BitmapImage(imagens[11].UriSource);
+            var carta = img.ToString().Split('/');
+            verificar(carta.Last());
+        }
+
 
 
 
